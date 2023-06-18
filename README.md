@@ -2,11 +2,13 @@
 > `Using Springboot Annotations and API calls using Java.
 Make objects and return them using getMappings annotations.
 These objects should not be initialized manually, they are created by Spring Framework via DI and IOC. Some of the annotations used by this project are @Autowired, @Configuration, @Bean etc.`
+---
 
 ## Introduction
 
-This README file provides an overview and guide for using the Spring Framework to implement Dependency Injection (DI) and Inversion of Control (IOC) concepts. Additionally, it covers how to integrate mail functionality into your Spring application.
+This README file provides an overview and guide for using the Spring Framework to implement Dependency Injection (DI) and Inversion of Control (IOC) concepts. Additionally, it covers how to integrate mail functionality into your Spring application. 
 
+---
 ## Contents
 
 1. Dependency Injection and Inversion of Control
@@ -18,6 +20,7 @@ This README file provides an overview and guide for using the Spring Framework t
 4. Configuring Dependency Injection in Spring
 5. Integrating Mail Functionality in Spring
 
+---
 ### 1. Dependency Injection and Inversion of Control
 
    **What is Dependency Injection?**
@@ -72,3 +75,10 @@ Spring provides excellent support for integrating mail functionality into your a
 1. Configure the Mail Server: Specify the mail server details (host, port, credentials, etc.) in your application configuration file.
 1. Set up the Mail Sender: Create an instance of the `MIMailHandler` interface, which represents the mail sender. Configure it with the required properties.
 1. Compose and Send Emails: Use the `MIMailHandler` instance to create
+---
+
+## Conclusion
+
+This README file provides a brief overview and guide for using the Spring Framework to implement Dependency Injection (DI) and Inversion of Control (IOC) concepts, as well as integrating mail functionality into your Spring application. Overall, the Spring Framework, along with DI, IOC, and mail integration capabilities, empowers developers to build robust and scalable applications with ease.
+
+---
