@@ -59,7 +59,7 @@ To get started with a Spring project, follow these steps:
 1. Configure the project's structure according to the chosen architecture (e.g., MVC).
 1. Define Spring bean configurations and specify component scanning if needed.
 1. Implement your application logic using Spring components.
-  ---
+---
 ### 4. Configuring Dependency Injection in Spring
 
 Spring Framework offers multiple ways to configure Dependency Injection. Here are some commonly used approaches:
@@ -67,18 +67,16 @@ Spring Framework offers multiple ways to configure Dependency Injection. Here ar
 * XML-based Configuration: Configure beans and their dependencies using XML configuration files.
 * Annotation-based Configuration: Use annotations like `@Component`, `@Autowired`, and `@Qualifier` to define beans and their dependencies.
 * Java-based Configuration: Use Java classes annotated with `@Configuration`, `@Bean`, and other annotations to define beans and their dependencies.
-
-  ---
+---
 ### 5. Integrating Mail Functionality in Spring
+
 Spring provides excellent support for integrating mail functionality into your application. Here's a high-level overview of the steps involved:
 
 1. Configure the Mail Server: Specify the mail server details (host, port, credentials, etc.) in your application configuration file.
 1. Set up the Mail Sender: Create an instance of the `MIMailHandler` interface, which represents the mail sender. Configure it with the required properties.
 1. Compose and Send Emails: Use the `MIMailHandler` instance to create
 ---
-
 ## Conclusion
 
 This README file provides a brief overview and guide for using the Spring Framework to implement Dependency Injection (DI) and Inversion of Control (IOC) concepts, as well as integrating mail functionality into your Spring application. Overall, the Spring Framework, along with DI, IOC, and mail integration capabilities, empowers developers to build robust and scalable applications with ease.
 
----
