@@ -19,7 +19,6 @@ This README file provides an overview and guide for using the Spring Framework t
 3. Setting up a Spring Project
 4. Configuring Dependency Injection in Spring
 5. Integrating Mail Functionality in Spring
-
 ---
 ### 1. Dependency Injection and Inversion of Control
 
@@ -37,7 +36,7 @@ This README file provides an overview and guide for using the Spring Framework t
    * Increased modularity and scalability of the application.
    * Improved code reusability and separation of concerns.
    * Promotes cleaner and more maintainable code.
-  
+  ---
 ### 2. Spring Framework Overview
 
 The Spring Framework is a popular Java-based framework that provides comprehensive support for building enterprise-level applications. It offers various modules for different functionalities, including DI and IOC.
@@ -49,7 +48,7 @@ Key features of the Spring Framework:
 * Provides extensive support for database integration, transaction management, and security.
 * Simplifies unit testing and integration testing.
 * Offers seamless integration with other frameworks and technologies.
-
+---
 ### 3. Setting up a Spring Project
 
 To get started with a Spring project, follow these steps:
@@ -60,7 +59,7 @@ To get started with a Spring project, follow these steps:
 1. Configure the project's structure according to the chosen architecture (e.g., MVC).
 1. Define Spring bean configurations and specify component scanning if needed.
 1. Implement your application logic using Spring components.
-  
+  ---
 ### 4. Configuring Dependency Injection in Spring
 
 Spring Framework offers multiple ways to configure Dependency Injection. Here are some commonly used approaches:
@@ -68,7 +67,8 @@ Spring Framework offers multiple ways to configure Dependency Injection. Here ar
 * XML-based Configuration: Configure beans and their dependencies using XML configuration files.
 * Annotation-based Configuration: Use annotations like `@Component`, `@Autowired`, and `@Qualifier` to define beans and their dependencies.
 * Java-based Configuration: Use Java classes annotated with `@Configuration`, `@Bean`, and other annotations to define beans and their dependencies.
-  
+
+  ---
 ### 5. Integrating Mail Functionality in Spring
 Spring provides excellent support for integrating mail functionality into your application. Here's a high-level overview of the steps involved:
 
