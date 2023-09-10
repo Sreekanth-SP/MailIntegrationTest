@@ -1,3 +1,4 @@
+
 # MailIntegrationTest
 > `Using Springboot Annotations and API calls using Java.
 Make objects and return them using getMappings annotations.
